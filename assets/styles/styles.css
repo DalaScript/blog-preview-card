@@ -16,7 +16,7 @@ body {
   font-family: "Figtree";
 }
 
-picture {
+.blog-preview-card__picture {
   display: flex;
 }
 
@@ -30,8 +30,9 @@ main {
   align-items: center;
   justify-content: center;
 }
-main .blog-preview-card {
-  padding: 24px;
+
+.blog-preview-card {
+  padding: 23px;
   max-width: 384px;
   width: 100%;
   background-color: #FFFFFF;
@@ -42,25 +43,21 @@ main .blog-preview-card {
   gap: 24px;
 }
 
-.blog-preview-card .blog-logo {
+.blog-preview-card__logo {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
-.blog-preview-card .blog-text-content {
+
+.blog-preview-card__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
 }
-.blog-preview-card .blog-author {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
 
-.blog-text-content .category {
+.blog-preview-card__category {
   padding: 4px 12px;
   border-radius: 4px;
   background-color: #F4D04E;
@@ -69,25 +66,34 @@ main .blog-preview-card {
   line-height: 1.5;
   color: #111111;
 }
-.blog-text-content .publish-date {
+
+.blog-preview-card__publish-date {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
 }
-.blog-text-content .title {
+
+.blog-preview-card__title {
   font-weight: 800;
   font-size: 20px;
   line-height: 1.5;
   color: #111111;
 }
-.blog-text-content .description {
+
+.blog-preview-card__description {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
   color: #7F7F7F;
 }
 
-.blog-author .author-name {
+.blog-preview-card__blog-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog-preview-card__author-name {
   font-weight: 800;
   font-size: 14px;
   line-height: 1.5;
@@ -98,33 +104,39 @@ main .blog-preview-card {
   main {
     padding: 0;
   }
-  main .blog-preview-card {
+
+  .blog-preview-card {
     box-shadow: 8px 8px 0px #111111;
   }
 
-  .blog-text-content .publish-date {
+  .blog-preview-card__publish-date {
     font-size: 14px;
   }
-  .blog-text-content .title {
+
+  .blog-preview-card__title {
     font-size: 24px;
   }
-  .blog-text-content .description {
+
+  .blog-preview-card__description {
     font-size: 16px;
   }
 }
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) and (min-width: 432px) {
   .blog-preview-card {
+    pointer-events: none;
     transition: box-shadow 0.5s ease-out;
   }
   .blog-preview-card:hover {
     box-shadow: 16px 16px 0 #111111;
   }
-
-  .blog-text-content .title {
+}
+@media (hover: hover) and (pointer: fine) {
+  .blog-preview-card__title {
     transition: color 0.5s ease-out;
+    pointer-events: auto;
   }
-  .blog-text-content .title:hover {
-    cursor: pointer;
+  .blog-preview-card__title:hover {
     color: #F4D04E;
+    cursor: pointer;
   }
 }

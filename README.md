@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,8 +14,9 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+  - [Connect with Me](#Connect-with-Me)
+  - [Coding Profiles](#Coding-Profiles)
+  - [Professional Links](#Professional-Links)
 
 ## Overview
 
@@ -31,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/NikaDalalishvili/recipe-page)
-- [Live Site URL](https://nikadalalishvili.github.io/recipe-page/)
+- [Solution URL](https://github.com/DalaScript/blog-preview-card)
+- [Live Site URL](https://dalascript.github.io/blog-preview-card/)
 
 ## My process
 
@@ -42,7 +43,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/) - scss
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
+- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
 ### What I learned
 
@@ -64,16 +66,19 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 
 ## Author
 
-### DalaScript Project Social links
+### Connect with Me
 
-- Instagram - [@DalaScript](https://www.instagram.com/DalaScript)
-- YouTube - [@DalaScript](https://www.youtube.com/@DalaScript)
-- TikTok - [@DalaScript](https://www.tiktok.com/@Dalascript)
-- FrontendMentor - [@NikaDalalishvili](https://www.frontendmentor.io/profile/NikaDalalishvili)
+- [Instagram](https://www.instagram.com/DalaScript)
+- [YouTube](https://www.youtube.com/@DalaScript)
+- [TikTok](https://www.tiktok.com/@Dalascript)
 
-### Personal Social links
+### Coding Profiles
 
-- Instagram - [@nika.dala](https://www.instagram.com/nika.dala/)
-- TikTok - [@nika.dala](https://www.tiktok.com/@nika.dala)
-- LinkedIn - [@nika.dala](https://www.linkedin.com/in/nikadala/)
-- UpWork - [@Nika Dalalishvili](https://www.upwork.com/freelancers/~01fcf99c6c9609988e)
+- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+- [GitHub](https://github.com/DalaScript)
+
+### Professional Links
+
+- [LinkedIn](https://www.linkedin.com/in/nikadalalishvili/)
+- [UpWork](https://www.upwork.com/freelancers/~01fcf99c6c9609988e)

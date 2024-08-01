@@ -22,7 +22,7 @@ body {
     font-family: 'Figtree';
 }
 
-picture {
+.blog-preview-card__picture {
     display: flex;
 }
 
@@ -36,129 +36,123 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    .blog-preview-card {
-        padding: 24px;
-        max-width: 384px;
-        width: 100%;
-        background-color: $white;
-        border-radius: 20px;
-        border: 1px solid $black;
-
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-    }
 }
 
 .blog-preview-card {
-    .blog-logo {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        object-fit: cover;
-    }
+    padding: 23px;
+    max-width: 384px;
+    width: 100%;
+    background-color: $white;
+    border-radius: 20px;
+    border: 1px solid $black;
 
-    .blog-text-content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-    }
-
-    .blog-author {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.blog-text-content {
-    .category {
-        padding: 4px 12px;
-        border-radius: 4px;
-        background-color: $yellow;
-
-        font-weight: 800;
-        font-size: 14px;
-        line-height: 1.5;
-
-        color: $black;
-    }
-
-    .publish-date {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 1.5;
-    }
-
-    .title {
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 1.5;
-
-        color: $black;
-    }
-
-    .description {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.5;
-
-        color: $grey;
-    }
+.blog-preview-card__logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
-.blog-author {
-    .author-name {
-        font-weight: 800;
-        font-size: 14px;
-        line-height: 1.5;
+.blog-preview-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
 
-        color: $black;
-    }
+.blog-preview-card__category {
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: $yellow;
+
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: $black;
+}
+
+.blog-preview-card__publish-date {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.blog-preview-card__title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.5;
+
+    color: $black;
+}
+
+.blog-preview-card__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: $grey;
+}
+
+.blog-preview-card__blog-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blog-preview-card__author-name {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: $black;
 }
 
 @media only screen and (min-width: 432px) {
     main {
         padding: 0;
-        
-        .blog-preview-card {
-            box-shadow: 8px 8px 0px $black;
-        }
     }
 
-    .blog-text-content {
-        .publish-date {
-            font-size: 14px;
-        }
+    .blog-preview-card {
+        box-shadow: 8px 8px 0px $black;
+    }
 
-        .title {
-            font-size: 24px;
-        }
+    .blog-preview-card__publish-date {
+        font-size: 14px;
+    }
 
-        .description {
-            font-size: 16px;
+    .blog-preview-card__title {
+        font-size: 24px;
+    }
+
+    .blog-preview-card__description {
+        font-size: 16px;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 432px) {
+    .blog-preview-card {
+        pointer-events: none;
+        transition: box-shadow 0.5s ease-out;
+
+        &:hover {
+            box-shadow: 16px 16px 0 $black;
         }
     }
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .blog-preview-card {
-        transition: box-shadow 0.5s ease-out;
+    .blog-preview-card__title {
+        transition: color .5s ease-out;
+        pointer-events: auto;
         &:hover {
-            box-shadow: 16px 16px 0 $black;
-        }
-    }
-
-    .blog-text-content {
-        .title {
-            transition: color 0.5s ease-out;
-            &:hover {
-                cursor: pointer;
-                color: $yellow;
-            }
+            color: $yellow;
+            cursor: pointer;
         }
     }
 }
-
