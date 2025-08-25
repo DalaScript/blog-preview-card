@@ -1,0 +1,25 @@
+/* || Body
+ *************************/
+body {
+    background-color: var(--yellow);
+
+    font-family: var(--fingtree);
+}
+
+/* || Main
+ *************************/
+main {
+    padding: 0 1.5rem;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 432px) {
+    main {
+        padding: 0;
+    }
+}

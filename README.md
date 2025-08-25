@@ -1,78 +1,80 @@
-# Frontend Mentor - Blog preview card solution
+# Blog Preview Card | Frontend Mentor
+
+**Challenge 3**
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-  - [Connect with Me](#Connect-with-Me)
-  - [Coding Profiles](#Coding-Profiles)
+## 📚 Table of contents
 
-## Overview
+- [🔎 Overview](#-overview)
+  - [🎯 The challenge](#-the-challenge)
+  - [📸 Screenshot](#-screenshot)
+  - [🔗 Links](#-links)
+  - [🛠️ Built with](#️-built-with)
+- [🧠 My process](#-my-process)
+  - [🎓 What I learned](#-what-i-learned)
+  - [🌱 Continued development](#-continued-development)
+  - [🗃️ Useful resources](#️-useful-resources)
+  - [🔙 Previous Project](#-previous-project)
+  - [🔜 Next Project](#-next-project)
+- [👤 About Me](#-about-me)
+  - [🌐 Connect with Me](#-connect-with-me)
+  - [💻 Coding Profiles](#-coding-profiles)
 
-### The challenge
+---
+
+## 🔎 Overview
+
+### 🎯 The challenge
 
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### 📸 Screenshot
 
-![](./assets/images/screenshot/screenshot.jpg)
+![Live Preview Screenshot](./assets/images/screenshot/screenshot.jpg)
 
-### Links
+### 🔗 Links
 
-- [Solution URL](https://github.com/DalaScript/blog-preview-card)
-- [Live Site URL](https://DalaScript.github.io/blog-preview-card/)
+  - [🔴 Live Demo](https://DalaScript.github.io/blog-preview-card/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/blog-preview-card)
 
-## My process
+### 🛠️ Built with
 
-### Built with
+  - HTML5
+  - CSS3
+  - Flexbox
+  - Mobile-first workflow
+  - bem - [Block Element Modifier](https://getbem.com/introduction/)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- bem - [Block Element Modifier](https://getbem.com/introduction/)
-- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+---
 
-### What I learned
+## 🧠 My process
 
-Nothing special, it was simple, what was new to me was the time tag, but I understood it easily.
+### 🔙 Previous Project
 
-```html
-<time datetime="2023-12-21">21 Dec 2023</time>
-```
+  - Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
 
-### Continued development
+### 🔜 Next Project
 
-First I want to finish the javascript course I'm taking on freecodecamp, I'm also going through the learning path on Frontendmentor, and after that I want to focus more on React, Next.js and Node.js.
+  - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
 
-### Useful resources
+---
 
-- [ChatGPT](https://chatgpt.com/) - He is my hero, if I need something fast, if I can't understand something, or if I can't find it on the internet, I always ask him.
-- [W3Schools](https://www.w3schools.com/) - This is my favorite documentation platform I've been using since I started programming, it's the best explained resource.
-- [YouTube](https://www.youtube.com/) - I'm always looking for news and listening to other developers, sharing their experiences so that I can see many different solutions to a problem.
+## 👤 About Me
 
-## Author
+### 🌐 Connect with Me
 
-### Connect with Me
+  - [Instagram](https://www.instagram.com/DalaScript)
+  - [YouTube](https://www.youtube.com/@DalaScript)
 
-- [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@DalaScript)
-- [TikTok](https://www.tiktok.com/@CodeWithDala)
+### 💻 Coding Profiles
 
-### Coding Profiles
+  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+  - [GitHub](https://github.com/DalaScript)
 
-- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-- [GitHub](https://github.com/DalaScript)
+*🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*

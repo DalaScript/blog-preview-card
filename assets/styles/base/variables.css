@@ -1,0 +1,18 @@
+/* || Fonts Imports ('Figtree')
+ *************************/
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* || Global Variables
+ *************************/
+:root {
+    /* || Colors
+     *************************/
+    --black: #111111;
+    --white: #FFFFFF;
+    --yellow: #F4D04E;
+    --grey: #7F7F7F;
+
+    /* || Colors
+     *************************/
+    --fingtree: "Figtree", sans-serif;
+}
