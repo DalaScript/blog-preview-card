@@ -14,11 +14,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [🔗 Links](#-links)
   - [🛠️ Built with](#️-built-with)
 - [🧠 My process](#-my-process)
-  - [🎓 What I learned](#-what-i-learned)
-  - [🌱 Continued development](#-continued-development)
-  - [🗃️ Useful resources](#️-useful-resources)
-  - [🔙 Previous Project](#-previous-project)
-  - [🔜 Next Project](#-next-project)
+  - [🔙 Previous Challenge](#-previous-challenge)
+  - [🔜 Next Challenge](#-next-challenge)
 - [👤 About Me](#-about-me)
   - [🌐 Connect with Me](#-connect-with-me)
   - [💻 Coding Profiles](#-coding-profiles)
@@ -31,7 +28,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+  - See hover and focus states for all interactive elements on the page
 
 ### 📸 Screenshot
 
@@ -54,11 +51,11 @@ Users should be able to:
 
 ## 🧠 My process
 
-### 🔙 Previous Project
+### 🔙 Previous Challenge
 
   - Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
 
-### 🔜 Next Project
+### 🔜 Next Challenge
 
   - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
 
