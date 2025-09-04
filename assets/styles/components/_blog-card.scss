@@ -1,0 +1,121 @@
+/* || Blog Card Component
+ *************************/
+.blog-card {
+    padding: 1.4375rem;
+    max-width: 24rem;
+    width: 100%;
+    background-color: $white;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid $black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    &__logo {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.625rem;
+        object-fit: cover;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    &__category {
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.25rem;
+        background-color: $yellow;
+
+        font-weight: 800;
+        font-size: 0.875rem;
+        line-height: 1.5;
+
+        color: $black;
+    }
+
+    &__publish-date {
+        font-weight: 500;
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 1.25rem;
+        line-height: 1.5;
+
+        color: $black;
+    }
+
+    &__description {
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.5;
+
+        color: $grey;
+    }
+
+    &__author {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    &__author-name {
+        font-weight: 800;
+        font-size: 0.875rem;
+        line-height: 1.5;
+
+        color: $black;
+    }
+}
+
+/* || Media Queries
+ *************************/
+@media (min-width: 432px) {
+    .blog-card {
+        box-shadow: 0.5rem 0.5rem 0rem $black;
+
+        &__publish-date {
+        font-size: 0.875rem;
+        }
+
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &__description {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 432px) {
+    .blog-card {
+        pointer-events: none;
+        transition: box-shadow 0.5s ease-out;
+        
+        &:hover {
+            box-shadow: 1rem 1rem 0rem $black;
+        }
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .blog-card {
+        &__title {
+            transition: color .5s ease-out;
+            pointer-events: auto;
+
+            &:hover {
+                color: $yellow;
+                cursor: pointer;
+            }
+        }
+    }
+}

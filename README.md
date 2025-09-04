@@ -28,7 +28,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 Users should be able to:
 
-  - See hover and focus states for all interactive elements on the page
+- See hover and focus states for all interactive elements on the page
 
 ### 📸 Screenshot
 
@@ -36,16 +36,16 @@ Users should be able to:
 
 ### 🔗 Links
 
-  - [🔴 Live Demo](https://DalaScript.github.io/blog-preview-card/)
-  - [🗂️ GitHub Repository](https://github.com/DalaScript/blog-preview-card)
+- [🔴 Live Demo](https://DalaScript.github.io/blog-preview-card/)
+- [🗂️ GitHub Repository](https://github.com/DalaScript/blog-preview-card)
 
 ### 🛠️ Built with
 
-  - HTML5
-  - CSS3
-  - Flexbox
-  - Mobile-first workflow
-  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+- HTML5
+- CSS3
+- Flexbox
+- Mobile-first workflow
+- bem - [Block Element Modifier](https://getbem.com/introduction/)
 
 ---
 
@@ -53,11 +53,11 @@ Users should be able to:
 
 ### 🔙 Previous Challenge
 
-  - Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
+- Recipe Page | *Challenge 2* → [View Repository](https://github.com/DalaScript/recipe-page)
 
 ### 🔜 Next Challenge
 
-  - Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
+- Social Links Profile | *Challenge 4* → [View Repository](https://github.com/DalaScript/social-links-profile)
 
 ---
 
@@ -65,13 +65,13 @@ Users should be able to:
 
 ### 🌐 Connect with Me
 
-  - [Instagram](https://www.instagram.com/DalaScript)
-  - [YouTube](https://www.youtube.com/@DalaScript)
+- [Instagram](https://www.instagram.com/DalaScript)
+- [YouTube](https://www.youtube.com/@DalaScript)
 
 ### 💻 Coding Profiles
 
-  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-  - [GitHub](https://github.com/DalaScript)
+- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+- [GitHub](https://github.com/DalaScript)
 
 *🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*

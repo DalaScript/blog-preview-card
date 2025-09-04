@@ -1,12 +1,12 @@
-/* || Body
+/* || Body Element
  *************************/
 body {
-    background-color: var(--yellow);
+    background-color: $yellow;
 
-    font-family: var(--fingtree);
+    font-family: $fingtree;
 }
 
-/* || Main
+/* || Main Element
  *************************/
 main {
     padding: 0 1.5rem;
